@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <title>Forms</title>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <div>
+            <h1>My Bio</h1>
+            </div>
+            <div>
+                <label for="name">Name:</label> <br>
+                <input class="fore-group" type="text" name="name" id="name" placeholder="Name..." />
+            </div>
+            <div>
+                <label for="email">Email:</label> <br>
+                <input class="fore-group" type="text" name="email" id="email" placeholder="Email..." />
+            </div>
+            <div>
+                <label for="password">Password</label> <br>
+                <input class="fore-group" type="password" name="password" id="password" placeholder="Your Password">
+
+            </div>
+            <div>
+                <label for="age">18 - 30</label>
+                <input type="radio" name="age" id="18 - 30" />
+                <label for="age">31 - 40</label>
+                <input type="radio" name="age" id="31 - 40" />
+                <label for="age">41 - 60</label>
+                <input type="radio" name="age" id="41 - 60" />
+            </div>
+            <div>
+                <h3>My Skills</h3>
+                <label for="Java">Java</label>
+                <input type="checkbox" name="Java" id="Javascript">
+                <label for="Javascript">Javascript</label>
+                <input type="checkbox" name="Javascript" id="Javascript">
+                <label for="Html">Html</label>
+                <input type="checkbox" name="Html" id="Html">
+            </div>
+            <div>
+                <label for="number">Number</label>
+                <input class="form-mua" type="number" name="number" id="number">
+            </div>
+            <div>
+                <label for="about">About yourself</label><br />
+                <textarea
+                    name="about"
+                    id="about"
+                    placeholder="About yourself"
+                    rows="10"
+                    cols="50"
+                ></textarea>
+            </div>
+            <div class="but">
+                <button type="button">Submit</button>
+            </div>
+            </div>
+
+        </form>
+
+
+    </div>
+</body>
+</html>
